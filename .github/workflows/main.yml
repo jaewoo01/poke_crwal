@@ -20,7 +20,6 @@ jobs: # 실행할 작업을 정의
         run: |
           pip install selenium 
           sudo apt-get update
-          sudo rm -f /usr/bin/chromedriver
           sudo apt-get install chromium-browser -y
           sudo apt-get install chromium-chromedriver -y
           sudo ln -sf /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
