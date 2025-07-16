@@ -30,6 +30,6 @@ jobs: # 실행할 작업을 정의
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions@github.com"
-          git add pokemon.csv
+          git add poke_test.csv
           git commit -m "Update weather data (auto)"
           git push
