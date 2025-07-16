@@ -15,6 +15,7 @@ url_poke = "https://pokemonkorea.co.kr/pokedex"
 driver = wb.Chrome(service=service, options=options)
 driver.maximize_window()
 driver.get(url_poke)
+header = ["name", "type", "height","category","weight"]
 poke_list = []
 delay = 0.5
 for _ in range (10):
