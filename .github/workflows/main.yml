@@ -19,9 +19,6 @@ jobs: # 실행할 작업을 정의
       - name: # 크롤링 환경 설정
         run: |
           pip install selenium 
-          pip install requests
-          pip install sqlite3
-          pip install pandas
           sudo apt-get update
           sudo apt-get install chromium-browser -y
           sudo apt-get install chromium-chromedriver -y
